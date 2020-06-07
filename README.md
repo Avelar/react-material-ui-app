@@ -6,10 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, run to start:
 ### `npm start`
 
-- [x] Container, Grid, Paper
+- [x] React instalation, localhost config
+- [x] Material UI + React instalation and usage
+- [x] Understand Container, Grid, Paper
 - [x] Elevation, ClassName usage
 - [x] Jason component: componentDidMount
-- [x] understand how change and how to use a theme colors
-- [x] understand imports
-- [ ] understand m={} prop
+- [x] Understand how change and how to use a theme colors
+- [x] Understand imports
+- [ ] Understand m={} prop
 - [ ] Function to get correct name from IBGE name data
