@@ -15,6 +15,8 @@ import { spacing } from '@material-ui/system';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
+import FetchIBGEData from "./FetchIBGEData.js";
+
 function App() {
   return (
     <div className="App">
@@ -45,6 +47,11 @@ function App() {
             Pesquisar nome
           </Button>
         </Paper>
+
+        <div className="App">
+          <FetchIBGEData />
+        </div>
+
       </Container>
     </div>
   );
