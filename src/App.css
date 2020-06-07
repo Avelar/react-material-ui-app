@@ -2,6 +2,9 @@
   padding: 20px;
   margin-top: 20px;
 }
+.dataName {
+  margin-top: 20px;
+}
 button[type="button"] {
   display: block;
   margin-top: 20px;

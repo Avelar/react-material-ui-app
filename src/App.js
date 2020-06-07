@@ -30,7 +30,7 @@ function App() {
           <b>Teste 1: </b>
         </Box>
         <Box component="body1" paragraph="true" display="block">
-          Utilizar: Container, Box, Paper, Button, <span class="text-decoration--line-through">property m(margin), p(padding)</span> e fazer uma chamada JSON.
+          Utilizar: Tema, Container, Box, Paper, Button, Props: <span class="text-decoration--line-through">m(margin), p(padding)</span> fullWidth e fazer uma chamada JSON usando um componente.
         </Box>
         <Paper color="primary" p={10} elevation={2} className="{theme.paper}; paper">
           <Typography variant="subtitle2" component="h2">
@@ -40,15 +40,15 @@ function App() {
             Escreva um nome para saber a frequência com que pessoas registram seus filhos com este nome no Brasil.
           </p>
           <form className="noValidate" autoComplete="off">
-            <TextField id="standard-full-width" label="Exemplo: Eduardo" />
+            <TextField id="standard-full-width" label="Exemplo: Eduardo" fullWidth="true"/>
           </form>
 
-          <Button variant="contained" display="block" color="secondary" mt={4}>
+          <Button variant="contained" fullWidth="true" display="block" color="secondary" mt={4}>
             Pesquisar nome
           </Button>
         </Paper>
 
-        <div className="App">
+        <div className="dataName">
           <FetchIBGEData />
         </div>
 
