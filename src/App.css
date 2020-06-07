@@ -1,9 +1,17 @@
-.App {
-  text-align: center;
+.paper {
+  padding: 20px;
+  margin-top: 20px;
 }
-
+button[type="button"] {
+  display: block;
+  margin-top: 20px;
+}
+/*Helpers*/
+.text-decoration--line-through {
+  text-decoration: line-through;
+}
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -14,18 +22,17 @@
 }
 
 .App-header {
-  
-}
-/* .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 0 40px;
   font-size: calc(10px + 2vmin);
   color: white;
-} */
+  margin-bottom: 40px;
+}
 
 .App-link {
   color: #61dafb;
